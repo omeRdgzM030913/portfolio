@@ -350,10 +350,6 @@ input[type=range]{flex:1;accent-color:var(--amber);cursor:none}
   <ul class="nav-tabs">
     <li class="nav-tab active" onclick="showPage('home')">Home</li>
     <li class="nav-tab" onclick="showPage('about')">Who I Am</li>
-    <li class="nav-tab" onclick="showPage('projects')">Projects</li>
-    <li class="nav-tab" onclick="showPage('writing')">Writing</li>
-    <li class="nav-tab" onclick="showPage('learning')">Learning</li>
-    <li class="nav-tab" onclick="showPage('now')">Now</li>
     <li class="nav-tab" onclick="showPage('contact')">Contact</li>
   </ul>
   <a href="CV_Omar_Rodriguez.pdf" target="_blank" class="nav-cta" id="cv-btn">↓ CV</a>
@@ -364,7 +360,7 @@ input[type=range]{flex:1;accent-color:var(--amber);cursor:none}
 ══════════════════════════════════════ -->
 <div id="page-home" class="page active">
 
-  <!-- MANIFESTO -->
+<!-- MANIFESTO -->
   <div class="manifesto">
     <div class="manifesto-grain"></div>
     <div class="manifesto-eyebrow">Omar Rodriguez Montiel · Data Scientist & Mathematician</div>
@@ -379,7 +375,7 @@ input[type=range]{flex:1;accent-color:var(--amber);cursor:none}
     <!-- ── EDIT: subtitle below the quote ── -->
     <p class="manifesto-sub">
       Mathematics, code, and business thinking — combined to solve problems that actually matter.
-      Final-semester AI & Data Science student. Born in Mexico. Shaped in Germany.
+      Data Science & Mathematics Engineer. Born in Mexico. Shaped in Germany.
     </p>
     <div class="manifesto-scroll">
       <div class="scroll-line"></div>
@@ -387,25 +383,19 @@ input[type=range]{flex:1;accent-color:var(--amber);cursor:none}
     </div>
   </div>
 
+
   <!-- HERO -->
   <section id="hero">
     <div class="hero-bg"></div><div class="hero-grid-bg"></div>
     <div class="hero-left">
-      <div class="eyebrow">Graduating Jun 2026</div>
+      <div class="eyebrow">Data Science & Mathematics Engineer · Available Full-Time</div>
       <!-- ── EDIT: hero headline ── -->
       <h1>Data<br><em>Scientist</em><br><span class="outline">&amp; Mathematician</span></h1>
       <!-- ── EDIT: hero description ── -->
-      <p class="hero-desc">I sit at the intersection of <strong>code, mathematics, and business strategy</strong>. Final-semester at Tecnológico de Monterrey with international experience in <strong>Cologne, Germany</strong>. I turn data into decisions that actually move the needle.</p>
+      <p class="hero-desc">Data Science & Mathematics Engineer with international experience in <strong>Germany</strong>, where I developed and implemented AI, data analysis, and business projects. I've collaborated with companies like <strong>Qlik</strong> and <strong>Vertiche</strong> on real-impact industry work. Versatile by nature — I adapt to any industry and any type of data. My approach combines technology and social sciences to find patterns, support data-driven decisions, and solve real business problems. <strong>Available for full-time positions.</strong></p>
       <div class="hero-btns">
-        <a href="#" class="btn-fill" onclick="showPage('projects')">Explore My Work →</a>
         <a href="#" class="btn-out" onclick="showPage('contact')">Get In Touch</a>
       </div>
-    </div>
-    <div class="hero-right">
-      <!-- ── EDIT: info cards ── -->
-      <div class="h-card"><div class="h-bar hb-a"></div><div class="h-label">Based in</div><div class="h-val">Mexico City</div><div class="h-sub">Available remote & on-site</div></div>
-      <div class="h-card"><div class="h-bar hb-n"></div><div class="h-label">International experience</div><div class="h-val">Cologne, Germany</div><div class="h-sub">CBS International Business School · 2025–26</div></div>
-      <div class="h-card"><div class="h-bar hb-s"></div><div class="h-label">Degree</div><div class="h-val">Data Science & Mathematics</div><div class="h-sub">Tec de Monterrey · QS #51–100 in DS & AI · Graduating Jun 2026</div></div>
     </div>
   </section>
 
@@ -416,6 +406,107 @@ input[type=range]{flex:1;accent-color:var(--amber);cursor:none}
     <div class="st rv d2"><span class="st-n" data-n="50">0</span><span class="st-n" style="font-size:2rem">+</span><span class="st-l">Datasets Worked With</span></div>
     <div class="st rv d3"><span class="st-n" data-n="5">0</span><span class="st-n" style="font-size:2rem">+</span><span class="st-l">Industry Projects</span></div>
   </div>
+
+  <!-- PROJECTS -->
+  <div id="projects-home" style="border-top:1px solid var(--border)">
+    <div class="proj-page-pad">
+    <div class="s-tag">Work</div>
+    <h2>Projects that <em>shipped</em></h2>
+
+    <!-- STORYTELLING -->
+    <div class="proj-story rv">
+      <div class="proj-story-tag">Why these projects exist</div>
+      <!-- ── EDIT: your purpose narrative ── -->
+      <p class="proj-story-q">"Every project I've built started with a question I couldn't stop thinking about."</p>
+      <p class="proj-story-p">SmartShelf started when I walked through a supermarket in Germany and saw entire shelves of food about to be thrown away — and a discount system that was clearly not working. The Qlik project started when I realized that a 93% acceptance rate hides more information than it reveals. The pricing pipeline started when I asked: why are people still doing this manually? I don't build projects to fill a portfolio. I build them because the problem bothers me until I solve it.</p>
+    </div>
+
+    <!-- PROJECT 1: SMARTSHELF + INTERACTIVE SIMULATOR -->
+    <div class="proj-block rv" style="margin-top:3rem">
+      <div class="proj-info">
+        <div class="proj-num">01 / Featured · CBS International Business School, Cologne, Germany</div>
+        <div class="proj-title">SmartShelf — AI Dynamic Pricing System</div>
+        <!-- ── EDIT: project description ── -->
+        <div class="proj-desc">Designed and built an end-to-end AI pricing system to reduce food waste in retail. Combines a real-time demand elasticity model, a relational SQL inventory database, and a Python automation pipeline into a deployable business solution.</div>
+        <div class="proj-desc" style="margin-top:.8rem;font-style:italic;color:var(--amber);font-size:.78rem">Presented entirely in English to a panel of business professors and international peers in a formal boardroom setting at CBS Cologne — defending the business case, the financial model, and the technical architecture under real stakeholder scrutiny. One of the most professionally challenging experiences of my formation.</div>
+        <div class="proj-metrics-row">
+          <div class="p-m"><div class="p-m-v">60%</div><div class="p-m-l">Food waste ↓</div></div>
+          <div class="p-m"><div class="p-m-v">20%+</div><div class="p-m-l">Margin recovery</div></div>
+        </div>
+        <div class="proj-tags"><span class="ptag hi">Python</span><span class="ptag hi">SQL</span><span class="ptag">Demand Elasticity</span><span class="ptag">Entity-Relationship DB</span><span class="ptag">Business Case</span></div>
+        <a href="SmartShelf.pdf" target="_blank" class="proj-link" style="margin-top:1rem">View Full Presentation →</a>
+      </div>
+      <div class="proj-viz">
+        <div class="viz-title">Live Demo — <span>Pricing Simulator</span></div>
+        <div class="chart-wrap"><canvas id="shelfChart"></canvas></div>
+        <div class="sim-controls">
+          <div class="sim-row">
+            <span class="sim-label">Days remaining:</span>
+            <input type="range" id="daysSlider" min="1" max="14" value="10" oninput="updateShelf()">
+            <span class="sim-val" id="daysVal">10</span>
+          </div>
+          <div class="sim-row">
+            <span class="sim-label">Elasticity factor:</span>
+            <input type="range" id="elastSlider" min="1" max="3" value="2" step="0.1" oninput="updateShelf()">
+            <span class="sim-val" id="elastVal">2.0</span>
+          </div>
+          <div class="sim-result">
+            <div class="sim-result-label">Optimal discount</div>
+            <div class="sim-result-val" id="discountResult">15%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECT 2: QLIK + INTERACTIVE CHART -->
+    <div class="proj-block reverse rv">
+      <div class="proj-info">
+        <div class="proj-num">02 / Industry Partner: Qlik</div>
+        <div class="proj-title">Banking Offer Optimization — Qlik Sense</div>
+        <div class="proj-desc">Analyzed 50K+ records across 8 relational tables to uncover offer acceptance patterns. Discovered that the 6.9% rejection rate was concentrated in Premium clients failing the Top-Up criterion — and built a pre-approval system proposal around it.</div>
+        <div class="proj-metrics-row">
+          <div class="p-m"><div class="p-m-v">93.1%</div><div class="p-m-l">Acceptance rate</div></div>
+          <div class="p-m"><div class="p-m-v">8</div><div class="p-m-l">Tables integrated</div></div>
+        </div>
+        <div class="proj-tags"><span class="ptag hi">Qlik Sense</span><span class="ptag hi">SQL</span><span class="ptag">KPI Design</span><span class="ptag">Data Storytelling</span></div>
+        <a href="Analisis_QLIK.pdf" target="_blank" class="proj-link" style="margin-top:1rem">View Full Report →</a>
+      </div>
+      <div class="proj-viz">
+        <div class="viz-title">Live Data — <span>Offer Acceptance by Segment</span></div>
+        <div class="chart-wrap"><canvas id="qlikChart"></canvas></div>
+      </div>
+    </div>
+
+    <!-- PROJECT 3: ML PIPELINE + ACCURACY CHART -->
+    <div class="proj-block rv">
+      <div class="proj-info">
+        <div class="proj-num">03 / ML Pipeline</div>
+        <div class="proj-title">Automated Price Prediction System</div>
+        <div class="proj-desc">Full Scikit-learn ML pipeline to estimate optimal product prices from historical demand, costs, and sales data. Outperformed previous manual methods by 10% accuracy and 30% faster processing through feature engineering and automation.</div>
+        <div class="proj-metrics-row">
+          <div class="p-m"><div class="p-m-v">85%</div><div class="p-m-l">Accuracy</div></div>
+          <div class="p-m"><div class="p-m-v">30%</div><div class="p-m-l">Faster processing</div></div>
+        </div>
+        <div class="proj-tags"><span class="ptag hi">Python</span><span class="ptag hi">Scikit-learn</span><span class="ptag">Feature Engineering</span><span class="ptag">XGBoost</span></div>
+        <a href="https://github.com/omeRdgzM030913/Automated-Price-Prediction-System" target="_blank" class="proj-link" style="margin-top:1rem">View Project →</a>
+      </div>
+      <div class="proj-viz">
+        <div class="viz-title">Accuracy Comparison — <span>Methods vs. Results</span></div>
+        <div class="chart-wrap"><canvas id="mlChart"></canvas></div>
+      </div>
+    </div>
+
+  </div>
+  <div style="padding:3rem 4rem 1rem;text-align:center;border-top:1px solid var(--border)">
+    <div style="font-family:'DM Mono',monospace;font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:.8rem">More Work</div>
+    <a href="https://github.com/omeRdgzM030913" target="_blank" style="display:inline-flex;align-items:center;gap:.6rem;padding:.9rem 2rem;border:1.5px solid var(--ink);color:var(--ink);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;transition:border-color .2s,color .2s" onmouseover="this.style.borderColor='#c8621a';this.style.color='#c8621a'" onmouseout="this.style.borderColor='#1a1612';this.style.color='#1a1612'">View All Projects on GitHub →</a>
+  </div>
+  </div>
+  
+
+
+  
+  
 
   <!-- SKILLS VISUAL -->
   <section id="skills-home">
@@ -439,6 +530,8 @@ input[type=range]{flex:1;accent-color:var(--amber);cursor:none}
       </div>
     </div>
   </section>
+
+  
 
   <!-- DOMAINS -->
   <section id="domains">
@@ -465,6 +558,20 @@ input[type=range]{flex:1;accent-color:var(--amber);cursor:none}
         <div class="dom-skills"><span class="ds">Power BI</span><span class="ds">Tableau</span><span class="ds">Qlik Sense</span><span class="ds">Advanced Excel</span><span class="ds">KPI Design</span><span class="ds">Data Storytelling</span><span class="ds">Agile/Scrum</span><span class="ds">Financial Modeling</span><span class="ds">A/B Testing</span><span class="ds">AI Business Models</span></div>
       </div>
     </div>
+  </section>
+
+  <!-- JOURNEY / EDUCATION IN HOME -->
+  <section style="padding:4rem 4rem 5rem;border-top:1px solid var(--border)">
+      <!-- TIMELINE -->
+  <div class="about-tl">
+    <div class="s-tag">Journey</div>
+    <h2 style="margin-bottom:2.5rem">Education &amp; <em>Experience</em></h2>
+    <div>
+      <div class="tl-i rv"><div class="tl-dot"></div><div class="tl-date">Aug 2025<br>Feb 2026</div><div><div class="tl-title">International Exchange — Business Models & AI</div><div class="tl-org">CBS International Business School · Cologne, Germany</div><div class="tl-desc">First time living outside Mexico — navigated ambiguity, adapted fast, and collaborated across cultures. Fully in English.</div></div></div>
+      <div class="tl-i rv"><div class="tl-dot"></div><div class="tl-date">Oct 2024<br>Dec 2024</div><div><div class="tl-title">Industry Project — Qlik Partner</div><div class="tl-org">Tecnológico de Monterrey × Qlik</div><div class="tl-desc">Worked with Qlik as industry partner on a real banking analytics challenge. Processed 50K+ records, built an executive dashboard, and delivered strategic recommendations.</div></div></div>
+      <div class="tl-i rv"><div class="tl-dot"></div><div class="tl-date">Aug 2022<br>Jun 2026</div><div><div class="tl-title">B.Eng. Engineering in Data Science and Mathematics</div><div class="tl-org">Tecnológico de Monterrey (CEM) · QS #51–100 in Data Science & AI</div><div class="tl-desc">Advanced mathematics, ML, deep learning, NLP, stochastic processes, optimization, and cloud computing.</div></div></div>
+    </div>
+  </div>
   </section>
 
   <footer>
@@ -585,206 +692,10 @@ input[type=range]{flex:1;accent-color:var(--amber);cursor:none}
     </div>
   </div>
 
-  <!-- TIMELINE -->
-  <div class="about-tl">
-    <div class="s-tag">Journey</div>
-    <h2 style="margin-bottom:2.5rem">Education &amp; <em>Experience</em></h2>
-    <div>
-      <div class="tl-i rv"><div class="tl-dot"></div><div class="tl-date">Aug 2025<br>Feb 2026</div><div><div class="tl-title">International Exchange — Business Models & AI</div><div class="tl-org">CBS International Business School · Cologne, Germany</div><div class="tl-desc">First time living outside Mexico — navigated ambiguity, adapted fast, and collaborated across cultures. Fully in English.</div></div></div>
-      <div class="tl-i rv"><div class="tl-dot"></div><div class="tl-date">Oct 2024<br>Dec 2024</div><div><div class="tl-title">Industry Project — Qlik Partner</div><div class="tl-org">Tecnológico de Monterrey × Qlik</div><div class="tl-desc">Worked with Qlik as industry partner on a real banking analytics challenge. Processed 50K+ records, built an executive dashboard, and delivered strategic recommendations.</div></div></div>
-      <div class="tl-i rv"><div class="tl-dot"></div><div class="tl-date">Aug 2022<br>Jun 2026</div><div><div class="tl-title">B.Eng. Engineering in Data Science and Mathematics</div><div class="tl-org">Tecnológico de Monterrey (CEM) · QS #51–100 in Data Science & AI</div><div class="tl-desc">Advanced mathematics, ML, deep learning, NLP, stochastic processes, optimization, and cloud computing.</div></div></div>
-    </div>
-  </div>
-
-  <footer><span>© 2026 Omar Rodriguez Montiel</span><span><a href="#" onclick="showPage('home')">← Home</a></span></footer>
-</div>
-
-<!-- ══════════════════════════════════════
-     PROJECTS
-══════════════════════════════════════ -->
-<div id="page-projects" class="page">
-  <div class="proj-page-pad">
-    <div class="s-tag">Work</div>
-    <h2>Projects that <em>shipped</em></h2>
-
-    <!-- STORYTELLING -->
-    <div class="proj-story rv">
-      <div class="proj-story-tag">Why these projects exist</div>
-      <!-- ── EDIT: your purpose narrative ── -->
-      <p class="proj-story-q">"Every project I've built started with a question I couldn't stop thinking about."</p>
-      <p class="proj-story-p">SmartShelf started when I walked through a supermarket in Germany and saw entire shelves of food about to be thrown away — and a discount system that was clearly not working. The Qlik project started when I realized that a 93% acceptance rate hides more information than it reveals. The pricing pipeline started when I asked: why are people still doing this manually? I don't build projects to fill a portfolio. I build them because the problem bothers me until I solve it.</p>
-    </div>
-
-    <!-- PROJECT 1: SMARTSHELF + INTERACTIVE SIMULATOR -->
-    <div class="proj-block rv" style="margin-top:3rem">
-      <div class="proj-info">
-        <div class="proj-num">01 / Featured · CBS International Business School, Cologne, Germany</div>
-        <div class="proj-title">SmartShelf — AI Dynamic Pricing System</div>
-        <!-- ── EDIT: project description ── -->
-        <div class="proj-desc">Designed and built an end-to-end AI pricing system to reduce food waste in retail. Combines a real-time demand elasticity model, a relational SQL inventory database, and a Python automation pipeline into a deployable business solution.</div>
-        <div class="proj-desc" style="margin-top:.8rem;font-style:italic;color:var(--amber);font-size:.78rem">Presented entirely in English to a panel of business professors and international peers in a formal boardroom setting at CBS Cologne — defending the business case, the financial model, and the technical architecture under real stakeholder scrutiny. One of the most professionally challenging experiences of my formation.</div>
-        <div class="proj-metrics-row">
-          <div class="p-m"><div class="p-m-v">60%</div><div class="p-m-l">Food waste ↓</div></div>
-          <div class="p-m"><div class="p-m-v">20%+</div><div class="p-m-l">Margin recovery</div></div>
-        </div>
-        <div class="proj-tags"><span class="ptag hi">Python</span><span class="ptag hi">SQL</span><span class="ptag">Demand Elasticity</span><span class="ptag">Entity-Relationship DB</span><span class="ptag">Business Case</span></div>
-        <a href="SmartShelf.pdf" target="_blank" class="proj-link" style="margin-top:1rem">View Full Presentation →</a>
-      </div>
-      <div class="proj-viz">
-        <div class="viz-title">Live Demo — <span>Pricing Simulator</span></div>
-        <div class="chart-wrap"><canvas id="shelfChart"></canvas></div>
-        <div class="sim-controls">
-          <div class="sim-row">
-            <span class="sim-label">Days remaining:</span>
-            <input type="range" id="daysSlider" min="1" max="14" value="10" oninput="updateShelf()">
-            <span class="sim-val" id="daysVal">10</span>
-          </div>
-          <div class="sim-row">
-            <span class="sim-label">Elasticity factor:</span>
-            <input type="range" id="elastSlider" min="1" max="3" value="2" step="0.1" oninput="updateShelf()">
-            <span class="sim-val" id="elastVal">2.0</span>
-          </div>
-          <div class="sim-result">
-            <div class="sim-result-label">Optimal discount</div>
-            <div class="sim-result-val" id="discountResult">15%</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- PROJECT 2: QLIK + INTERACTIVE CHART -->
-    <div class="proj-block reverse rv">
-      <div class="proj-info">
-        <div class="proj-num">02 / Industry Partner: Qlik</div>
-        <div class="proj-title">Banking Offer Optimization — Qlik Sense</div>
-        <div class="proj-desc">Analyzed 50K+ records across 8 relational tables to uncover offer acceptance patterns. Discovered that the 6.9% rejection rate was concentrated in Premium clients failing the Top-Up criterion — and built a pre-approval system proposal around it.</div>
-        <div class="proj-metrics-row">
-          <div class="p-m"><div class="p-m-v">93.1%</div><div class="p-m-l">Acceptance rate</div></div>
-          <div class="p-m"><div class="p-m-v">8</div><div class="p-m-l">Tables integrated</div></div>
-        </div>
-        <div class="proj-tags"><span class="ptag hi">Qlik Sense</span><span class="ptag hi">SQL</span><span class="ptag">KPI Design</span><span class="ptag">Data Storytelling</span></div>
-        <a href="Analisis_QLIK.pdf" target="_blank" class="proj-link" style="margin-top:1rem">View Full Report →</a>
-      </div>
-      <div class="proj-viz">
-        <div class="viz-title">Live Data — <span>Offer Acceptance by Segment</span></div>
-        <div class="chart-wrap"><canvas id="qlikChart"></canvas></div>
-      </div>
-    </div>
-
-    <!-- PROJECT 3: ML PIPELINE + ACCURACY CHART -->
-    <div class="proj-block rv">
-      <div class="proj-info">
-        <div class="proj-num">03 / ML Pipeline</div>
-        <div class="proj-title">Automated Price Prediction System</div>
-        <div class="proj-desc">Full Scikit-learn ML pipeline to estimate optimal product prices from historical demand, costs, and sales data. Outperformed previous manual methods by 10% accuracy and 30% faster processing through feature engineering and automation.</div>
-        <div class="proj-metrics-row">
-          <div class="p-m"><div class="p-m-v">85%</div><div class="p-m-l">Accuracy</div></div>
-          <div class="p-m"><div class="p-m-v">30%</div><div class="p-m-l">Faster processing</div></div>
-        </div>
-        <div class="proj-tags"><span class="ptag hi">Python</span><span class="ptag hi">Scikit-learn</span><span class="ptag">Feature Engineering</span><span class="ptag">XGBoost</span></div>
-        <a href="https://github.com/omeRdgzM030913/Automated-Price-Prediction-System" target="_blank" class="proj-link" style="margin-top:1rem">View Project →</a>
-      </div>
-      <div class="proj-viz">
-        <div class="viz-title">Accuracy Comparison — <span>Methods vs. Results</span></div>
-        <div class="chart-wrap"><canvas id="mlChart"></canvas></div>
-      </div>
-    </div>
-
-  </div>
-  <div style="padding:3rem 4rem 1rem;text-align:center;border-top:1px solid var(--border)">
-    <div style="font-family:'DM Mono',monospace;font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:.8rem">More Work</div>
-    <a href="https://github.com/omeRdgzM030913" target="_blank" style="display:inline-flex;align-items:center;gap:.6rem;padding:.9rem 2rem;border:1.5px solid var(--ink);color:var(--ink);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;transition:border-color .2s,color .2s" onmouseover="this.style.borderColor='#c8621a';this.style.color='#c8621a'" onmouseout="this.style.borderColor='#1a1612';this.style.color='#1a1612'">View All Projects on GitHub →</a>
-  </div>
-  <footer><span>© 2026 Omar Rodriguez Montiel</span><span><a href="#" onclick="showPage('home')">← Home</a></span></footer>
-</div>
-
-<!-- ══════════════════════════════════════
-     WRITING
-══════════════════════════════════════ -->
-<div id="page-writing" class="page">
-  <div class="writing-pad">
-    <div class="s-tag">Writing</div>
-    <h2>Data has a <em>story</em>.<br>I write it.</h2>
-
-    <div class="writing-intro rv">
-      <!-- ── EDIT: writing intro ── -->
-      <p>I write about the <strong>social and technical questions</strong> that drive my work. Not tutorials — stories. Every project I've built started with a problem I couldn't ignore, and these articles are where I explain why that problem mattered to me, and what I learned trying to solve it.</p>
-    </div>
-
-    <div class="articles-grid">
-
-      <!-- Germany article — FEATURED, moved to top -->
-      <div class="article-card featured rv">
-        <div class="art-body">
-          <div class="art-tag">Career · Business Thinking · Germany</div>
-          <div class="art-title">What Living in Germany Taught Me About Data Science — and Why Most Data Scientists Have a Dangerous Blind Spot</div>
-          <div class="art-why">Most Data Scientists share the same blind spot — technically brilliant, but they've never sat in a room where a P&amp;L is being discussed or a product decision gets made without a single line of SQL. That isolation is expensive. I know, because I had it too — until I moved to Germany for six months and everything changed.</div>
-          <div class="art-why" style="margin-top:.8rem">What I found at CBS Cologne wasn't just a different classroom. It was a completely different mental model: before asking <em>"what does the data say?"</em>, I started asking <em>"what decision is this data supposed to support — and who's making it?"</em></div>
-          <div class="art-why" style="margin-top:.8rem;font-style:italic;color:rgba(245,240,232,.5)">The rest of the story — including what SmartShelf taught me about building solutions that actually get implemented — is on Medium...</div>
-          <a href="https://medium.com/@omarrodmon10/what-living-in-germany-taught-me-about-data-science-and-why-most-data-scientists-have-a-dangerous-330cdb4e4549" target="_blank" style="margin-top:1.2rem;display:inline-flex;align-items:center;gap:.5rem;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--amber);border:1px solid var(--amber);padding:.6rem 1.2rem;text-decoration:none;font-family:'DM Sans',sans-serif;transition:background .2s" onmouseover="this.style.background='rgba(200,98,26,.15)'" onmouseout="this.style.background='transparent'">Continue reading on Medium →</a>
-        </div>
-      </div>
-
-      <!-- ── EDIT: Article 2 ── -->
-      <div class="article-card rv">
-        <div class="art-body">
-          <div class="art-tag">Dynamic Pricing · Food Systems</div>
-          <div class="art-title">How Demand Elasticity Can Save Supermarkets Millions — and Feed More People</div>
-          <div class="art-why">I walked through a supermarket in Cologne and saw 40% of the dairy shelf marked down by a flat 30% — the same discount for milk expiring in 2 hours and milk expiring in 2 days. That's not a pricing strategy. That's a default costing retailers money and contributing to food insecurity.</div>
-          <div class="art-question"><em>If the math for smarter pricing already exists, why isn't anyone using it?</em></div>
-          <a href="https://medium.com/@omarrodmon10" target="_blank" style="margin-top:1rem;display:inline-flex;align-items:center;gap:.4rem;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--amber);border-bottom:1px solid rgba(200,98,26,.3);padding-bottom:.2rem;text-decoration:none;font-family:'DM Sans',sans-serif">Follow on Medium for updates →</a>
-        </div>
-        <div class="art-side">
-          <p class="art-social-q">"30% of wasted food goes straight to the landfill. Static discounts are applied too late and not data-driven."</p>
-          <p class="art-impact">Demand elasticity, shelf-life modeling, and why the retail industry is leaving money and food on the table.</p>
-        </div>
-      </div>
-
-      <!-- ── Article 3 ── -->
-      <div class="article-card rv">
-        <div class="art-body">
-          <div class="art-tag">AI · Labor · Society</div>
-          <div class="art-title">The Jobs AI Will Actually Kill — and the One Skill That Makes You Untouchable</div>
-          <div class="art-why">Everyone talks about AI replacing jobs. Almost nobody talks about which specific jobs, at which specific layer, and why. After spending a semester in Germany studying business models alongside AI systems, I stopped asking "will AI take my job?" and started asking a much more useful question: which part of my job can a model do better than me — and what does that leave?</div>
-          <div class="art-why" style="margin-top:.8rem">The answer isn't comforting. Routine analysis, templated reporting, data cleaning at scale — these are already being automated faster than most analytics teams are willing to admit. What isn't being automated is judgment under uncertainty: knowing which question to ask when the data doesn't tell you, translating a business crisis into a data problem, deciding what not to measure. That's the gap. And it's only valuable if you can sit on both sides of it — technical enough to build the model, business-literate enough to know when not to trust it.</div>
-          <div class="art-why" style="margin-top:.8rem">My thesis: the data professionals who will thrive in the next decade aren't the ones who know the most tools. They're the ones who understand the business well enough to know which tool matters — and have the communication skills to make a non-technical decision-maker act on the output.</div>
-          <div class="art-question"><em>If AI can run the analysis, what exactly are you being paid for?</em></div>
-          <a href="https://medium.com/@omarrodmon10" target="_blank" style="margin-top:1rem;display:inline-flex;align-items:center;gap:.4rem;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--amber);border-bottom:1px solid rgba(200,98,26,.3);padding-bottom:.2rem;text-decoration:none;font-family:'DM Sans',sans-serif">Follow on Medium for updates →</a>
-        </div>
-        <div class="art-side">
-          <p class="art-social-q">"The analyst who understands the business will always outperform the one who only understands the data."</p>
-          <p class="art-impact">Why business context is the only moat left in data science — and how to build it deliberately.</p>
-        </div>
-      </div>
-
-      <!-- ── Article 4 ── -->
-      <div class="article-card rv">
-        <div class="art-body">
-          <div class="art-tag">Banking · Analytics · Society</div>
-          <div class="art-title">What a 93% Acceptance Rate Hides — and Who It Harms</div>
-          <div class="art-why">A 93.1% offer acceptance rate sounds like a success story. It isn't. When you work with 50,000+ real banking records across 8 relational tables — as I did in the Qlik project at Tec de Monterrey with an industry partner — that headline number starts to collapse the moment you disaggregate it.</div>
-          <div class="art-why" style="margin-top:.8rem">The 6.9% rejection rate wasn't random. It was concentrated almost entirely in one segment: Premium clients being evaluated for Top-Up products. These are clients the bank already has a relationship with — clients with the highest lifetime value — and the system was rejecting them at a disproportionate rate for a single criterion they didn't meet. Credit Policies and Risk Score were the top reasons across the full population, but for Premium clients specifically, the pattern was stark: one structural bottleneck was silently destroying conversion in the bank's most valuable segment.</div>
-          <div class="art-why" style="margin-top:.8rem">This is what aggregate KPIs hide. A 93% rate looks like a well-oiled machine. But inside it, there's a systematic exclusion pattern that, left unaddressed, slowly erodes the relationship with the clients who matter most. The proposal I built — a pre-approval system based on client history — wasn't about increasing the acceptance rate. It was about eliminating friction for clients who had already earned trust and were being failed by a process that wasn't built with them in mind.</div>
-          <div class="art-why" style="margin-top:.8rem">The broader lesson: high-level metrics are management comfort food. They feel good, they're easy to report, and they actively prevent you from seeing the problem. Real analytics starts when you stop celebrating the 93% and start asking who lives inside the 7% — and why.</div>
-          <div class="art-question"><em>Who is the 7% — and why does nobody ask?</em></div>
-          <a href="https://medium.com/@omarrodmon10" target="_blank" style="margin-top:1rem;display:inline-flex;align-items:center;gap:.4rem;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--amber);border-bottom:1px solid rgba(200,98,26,.3);padding-bottom:.2rem;text-decoration:none;font-family:'DM Sans',sans-serif">Follow on Medium for updates →</a>
-        </div>
-        <div class="art-side">
-          <p class="art-social-q">"Aggregate metrics are management comfort food. Real insight starts when you disaggregate."</p>
-          <p class="art-impact">Financial inclusion, rejection patterns, and what analytics can reveal about who gets left out of banking.</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-  <footer><span>© 2026 Omar Rodriguez Montiel</span><span><a href="#" onclick="showPage('home')">← Home</a></span></footer>
-</div>
-
-<!-- ══════════════════════════════════════
-     LEARNING
-══════════════════════════════════════ -->
-<div id="page-learning" class="page">
-  <div class="learning-pad">
+  
+  <!-- LEARNING IN WHO I AM -->
+  <section style="padding:3rem 4rem 5rem">
+    <div class="learning-pad">
     <div class="s-tag">Learning</div>
     <h2>A lifelong <em>learner</em></h2>
 
@@ -823,8 +734,8 @@ input[type=range]{flex:1;accent-color:var(--amber);cursor:none}
 
         <!-- ── EDIT: courses — change status: active (green), planned (gray), done (amber) ── -->
         <div class="course-card"><div class="course-status active"></div><div><div class="course-name">Google Advanced Data Analytics</div><div class="course-provider">Coursera · In progress</div></div></div>
-        <div class="course-card"><div class="course-status active"></div><div><div class="course-name">IBM Data Science Professional</div><div class="course-provider">Coursera · In progress</div></div></div>
-        <div class="course-card"><div class="course-status active"></div><div><div class="course-name">Google Prompting Essentials</div><div class="course-provider">Coursera · In progress</div></div></div>
+        <div class="course-card"><div class="course-status active"></div><div><div class="course-name">Microsoft Power BI</div><div class="course-provider">Coursera · In progress</div></div></div>
+        <div class="course-card"><div class="course-status planned"></div><div><div class="course-name">Google Cloud Fundamentals</div><div class="course-provider">Google · Planned</div></div></div>
         <div class="course-card"><div class="course-status planned"></div><div><div class="course-name">AWS Cloud Practitioner</div><div class="course-provider">Amazon · Planned Q2 2026</div></div></div>
         <div class="course-card"><div class="course-status planned"></div><div><div class="course-name">Deep Learning Specialization</div><div class="course-provider">DeepLearning.AI · Planned</div></div></div>
         <div class="course-card"><div class="course-status done"></div><div><div class="course-name">Business Models & AI</div><div class="course-provider">CBS International Business School · Completed Feb 2026</div></div></div>
@@ -876,74 +787,13 @@ input[type=range]{flex:1;accent-color:var(--amber);cursor:none}
 
     </div>
   </div>
-  <footer><span>© 2026 Omar Rodriguez Montiel</span><span><a href="#" onclick="showPage('home')">← Home</a></span></footer>
+  
 </div>
+  </section>
 
-<!-- ══════════════════════════════════════
-     NOW
-══════════════════════════════════════ -->
-<div id="page-now" class="page">
-  <div class="now-pad">
-    <div class="s-tag">Now</div>
-    <h2>What I'm <em>building</em><br>right now</h2>
-
-    <div class="now-intro rv">
-      <!-- ── EDIT: now date and intro ── -->
-      <div class="now-date">Last updated: March 2026</div>
-      <p>A snapshot of what I'm focused on right now — not where I've been, not where I'm going. Just this chapter, fully lived. <em>"The present moment always will have been."</em></p>
-    </div>
-
-    <div class="now-grid rv">
-
-      <!-- ── EDIT: Now cards ── -->
-      <div class="now-card">
-        <div class="now-pulse"></div>
-        <div class="now-card-bar" style="background:var(--amber)"></div>
-        <div class="now-card-tag">Graduating Soon</div>
-        <div class="now-card-title">Final semester at Tec de Monterrey</div>
-        <div class="now-card-desc">Wrapping up my last semester of AI & Data Science Engineering. Thesis-equivalent capstone project in progress. Expected graduation: June 2026.</div>
-      </div>
-
-      <div class="now-card">
-        <div class="now-pulse"></div>
-        <div class="now-card-bar" style="background:var(--navy)"></div>
-        <div class="now-card-tag">Applying Now</div>
-        <div class="now-card-title">M.Sc. Data Engineering & Analytics</div>
-        <div class="now-card-desc">Actively applying to the Master's program at TU Munich (TUM) — one of Europe's top technical universities. My research interest: scalable data infrastructure for real-time decision systems.</div>
-      </div>
-
-      <div class="now-card">
-        <div class="now-card-bar" style="background:var(--sage)"></div>
-        <div class="now-card-tag">Certifying</div>
-        <div class="now-card-title">Google Data Analytics + IBM DS</div>
-        <div class="now-card-desc">Completing two industry certifications in parallel to complement my degree with recognized credentials before graduation.</div>
-      </div>
-
-      <div class="now-card">
-        <div class="now-card-bar" style="background:var(--amber)"></div>
-        <div class="now-card-tag">Job Search</div>
-        <div class="now-card-title">Internship in Data Science or BI</div>
-        <div class="now-card-desc">Actively interviewing for internships and part-time roles in Mexico and internationally. Targeting FinTechs, consulting, and data-driven tech companies.</div>
-      </div>
-
-      <div class="now-card now-full">
-        <div class="now-card-bar" style="background:var(--rose)"></div>
-        <div class="now-card-tag">Building</div>
-        <div class="now-card-title">This portfolio & my public presence</div>
-        <div class="now-card-desc">Writing my first technical articles, polishing GitHub repos, and building this site as a live demonstration of what I can create. If you're reading this, you're seeing work in progress — and that's intentional.</div>
-        <div class="now-list">
-          <div class="now-item"><div class="now-item-dot"></div>Completing Google Advanced Data Analytics certification</div>
-          <div class="now-item"><div class="now-item-dot"></div>Finalizing TUM master's application cover letter and statement of purpose</div>
-          <div class="now-item"><div class="now-item-dot"></div>Learning German daily — targeting B1 before September 2026</div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-  <footer><span>© 2026 Omar Rodriguez Montiel</span><span><a href="#" onclick="showPage('home')">← Home</a></span></footer>
-</div>
-
-<!-- ══════════════════════════════════════
+  <div style="padding:2rem 4rem;text-align:center;border-top:1px solid var(--border)">
+    <a href="#" onclick="showPage('home')" style="font-family:'DM Mono',monospace;font-size:.65rem;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);text-decoration:none">← Back to Home</a>
+  </div><!-- ══════════════════════════════════════
      CONTACT
 ══════════════════════════════════════ -->
 <div id="page-contact" class="page">
@@ -953,11 +803,10 @@ input[type=range]{flex:1;accent-color:var(--amber);cursor:none}
     <div class="ct-wrap rv">
       <div>
         <!-- ── EDIT: contact description ── -->
-        <p class="ct-p">I'm actively looking for internship or part-time opportunities in Data Science, Business Analytics, or BI — in Mexico or internationally. If you have a project, a role, or just want to talk about data, I'd love to hear from you.</p>
-        <p class="ct-p" style="font-family:'DM Mono',monospace;font-size:.72rem;letter-spacing:.1em;color:var(--amber);margin-top:-.5rem">Available from April 2026</p>
+        <p class="ct-p">Full-time, project-based, or whatever the right opportunity looks like — I'm in. Data Science, Business Analytics, BI, in Mexico or internationally. I'm genuinely excited to get to work and build something valuable. If you have something in mind, I'd love to hear about it.</p>
         <div class="ct-links">
           <a href="mailto:omarrodmon10@gmail.com" class="ct-link"><span class="ct-lbl">Email</span><span>omarrodmon10@gmail.com</span></a>
-          <a href="https://linkedin.com/in/omar-rodriguez-montiel-652203204" target="_blank" class="ct-link"><span class="ct-lbl">LinkedIn</span><span>linkedin.com/in/omar-rodriguez-montiel-652203204</span></a>
+          <a href="https://www.linkedin.com/in/omarrodmon" target="_blank" class="ct-link"><span class="ct-lbl">LinkedIn</span><span>www.linkedin.com/in/omarrodmon</span></a>
           <a href="tel:5525331648" class="ct-link"><span class="ct-lbl">Phone</span><span>+52 55 2533 1648</span></a>
         </div>
       </div>
@@ -993,12 +842,10 @@ function showPage(name){
     window.scrollTo({top:0,behavior:'smooth'});
     setTimeout(()=>{ page.querySelectorAll('.rv').forEach(el=>{el.classList.remove('v');setTimeout(()=>el.classList.add('v'),80);}); },50);
     // init charts for projects page
-    if(name==='projects') setTimeout(initCharts,150);
-    if(name==='learning') setTimeout(initLangBars,200);
-    if(name==='home') setTimeout(initRadar,150);
-  }
-  const labels={home:'Home',about:'Who I Am',projects:'Projects',writing:'Writing',learning:'Learning',now:'Now',contact:'Contact'};
+    if(name==='home') { setTimeout(initCharts,200); setTimeout(initRadar,200); }
+    if(name==='about') { setTimeout(initLangBars,150); }
   document.querySelectorAll('.nav-tab').forEach(t=>{ if(t.textContent===labels[name])t.classList.add('active'); });
+  }
 }
 
 /* ── REVEAL ── */
@@ -1159,6 +1006,8 @@ async function sendContact(){
 /* ── INIT ON LOAD ── */
 document.addEventListener('DOMContentLoaded',()=>{
   setTimeout(initRadar,200);
+  setTimeout(initCharts,300);
+  setTimeout(initLangBars,400);
 });
 
 </script>
